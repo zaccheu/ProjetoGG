@@ -2,10 +2,16 @@
 {
     public class ClientesRepository
     {
+        public void Salvar(Clientes clientes)
+        {
+            File.AppendAllText(@"C:\\Users\\José\\Documents\\DEV\\ProjetoGG\\ProjetoGG\\CadastroBaseClientes\\BD.txt", "Rafael");
+        }
+
+
         public List<Clientes> Listar ()
         {
             List <Clientes> clientesLista = new List<Clientes> ();
-
+            
             //instanciando o cliente Rafael
             Clientes cliente = new Clientes ();
             cliente.UF = "SP";
@@ -38,7 +44,7 @@
             cliente.IdCliente = 23;
             clientesLista.Add(cliente);
 
-            return clientesLista; 
+            return clientesLista.OrderByDescending(t=>t.Nome).ToList(); 
         }
     }
 }

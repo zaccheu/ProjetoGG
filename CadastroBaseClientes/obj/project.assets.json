@@ -2260,23 +2260,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\": {},
+    "C:\\Users\\José\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\New folder\\CadastroClientes.csproj",
+      "projectUniqueName": "C:\\Users\\José\\Documents\\DEV\\ProjetoGG\\ProjetoGG\\CadastroBaseClientes\\CadastroClientes.csproj",
       "projectName": "CadastroClientes",
-      "projectPath": "C:\\Projetos\\New folder\\CadastroClientes.csproj",
-      "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\New folder\\obj\\",
+      "projectPath": "C:\\Users\\José\\Documents\\DEV\\ProjetoGG\\ProjetoGG\\CadastroBaseClientes\\CadastroClientes.csproj",
+      "packagesPath": "C:\\Users\\José\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\José\\Documents\\DEV\\ProjetoGG\\ProjetoGG\\CadastroBaseClientes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\José\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2285,6 +2285,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2335,7 +2336,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
