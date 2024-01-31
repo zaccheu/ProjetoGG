@@ -1,3 +1,4 @@
+
 .u-section-1 {
    background-image: none;
 }
@@ -8,7 +9,7 @@
 
 .u-section-1 .u-list-1 {
    width: 1020px;
-   margin: 68px auto 0;
+   margin: 20px auto 0;
 }
 
 .u-section-1 .u-repeater-1 {
@@ -21,8 +22,7 @@
 
 .u-section-1 .u-list-item-1 {
    background-image: none;
-   margin-top: 0;
-   margin-bottom: 0;
+   border-radius: 28px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -43,11 +43,14 @@
    font-size: 1.625rem;
    width: 213px;
    margin: 23px auto 0;
+   color: #fff;
 }
 
 .u-section-1 .u-list-item-2 {
    margin-top: 0;
    margin-bottom: 0;
+   background-color: burlywood;
+   border-radius: 28px;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -61,6 +64,7 @@
    color: rgb(0, 0, 0) !important;
    margin: 23px auto 0;
    padding: 14px;
+   background-color:  transparent !important;
 }
 
 .u-section-1 .u-text-2 {
@@ -68,18 +72,37 @@
    font-size: 1.625rem;
    width: 213px;
    margin: 23px auto 0;
+   color: #fff;
 }
 
 .u-section-1 .u-list-item-3 {
    background-image: none;
    box-shadow: 5px 5px 30px 0 rgba(0, 0, 0, 0.15);
-   margin-top: 0;
-   margin-bottom: 0;
+   border-radius: 28px;
 }
 
 .u-section-1 .u-container-layout-3 {
    padding: 0;
 }
+.u-section-1 .u-list-item-1:hover {
+   transform: scale(1.04);
+ }
+ .u-section-1 .u-list-item-2:hover {
+   transform: scale(1.04);
+ }
+.u-section-1 .u-list-item-3:hover {
+   transform: scale(1.04);
+ }
+ .u-section-1 .u-list-item-4:hover {
+   transform: scale(1.04);
+ }
+ .u-section-1 .u-list-item-5:hover {
+   transform: scale(1.04);
+ }
+ .u-section-1 .u-list-item-6:hover {
+   transform: scale(1.04);
+ }
+
 
 .u-section-1 .u-icon-3 {
    width: 74px;
@@ -102,6 +125,7 @@
    box-shadow: 5px 5px 30px 0 rgba(0, 0, 0, 0.15);
    margin-top: 0;
    margin-bottom: 0;
+   border-radius: 28px;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -125,9 +149,8 @@
 }
 
 .u-section-1 .u-list-item-5 {
-   margin-top: 0;
-   margin-bottom: 0;
    background-image: none;
+   border-radius: 28px;
 }
 
 .u-section-1 .u-container-layout-5 {
@@ -152,8 +175,7 @@
 
 .u-section-1 .u-list-item-6 {
    background-image: none;
-   margin-top: 0;
-   margin-bottom: 0;
+   border-radius: 28px;
 }
 
 .u-section-1 .u-container-layout-6 {
@@ -176,7 +198,7 @@
 }
 
 .u-section-1 .u-text-7 {
-   margin: 80px 717px 60px 60px;
+  margin:  16px 439px 0px 70px !important;
 }
 
 @media (max-width: 1199px) {
@@ -215,7 +237,7 @@
 
    .u-section-1 .u-text-7 {
       width: auto;
-      margin-top: 156px;
+      margin-top: 34px;
       margin-right: 568px;
       margin-left: 0;
    }
