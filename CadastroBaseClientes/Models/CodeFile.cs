@@ -1,7 +1,10 @@
-﻿public class Fornecedor
+﻿namespace CadastroClientes.Models
 {
-    public string Nome { get; set; }
-    public string Telefone { get; set; }
-    public string Produto { get; set; }
-    //A COMPLETAR
+    public class Fornecedor
+    {
+        public int IdFornecedor { get; set; }
+        public string Nome { get; set; }
+        public string Contato { get; set; }
+        public string Endereço { get; set; }
+    }
 }
